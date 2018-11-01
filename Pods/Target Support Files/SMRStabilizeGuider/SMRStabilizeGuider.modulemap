@@ -1,0 +1,6 @@
+framework module SMRStabilizeGuider {
+  umbrella header "SMRStabilizeGuider-umbrella.h"
+
+  export *
+  module * { export * }
+}

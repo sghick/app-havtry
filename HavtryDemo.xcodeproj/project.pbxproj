@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A52CC8FB0BE952D39EFE5ED7 /* Pods_HavtryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD44418215452E5EA93C6B53 /* Pods_HavtryDemo.framework */; };
+		FE9D74A620FF9F8B006B1646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9D74A520FF9F8B006B1646 /* AppDelegate.m */; };
+		FE9D74A920FF9F8B006B1646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9D74A820FF9F8B006B1646 /* ViewController.m */; };
+		FE9D74AE20FF9F8E006B1646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9D74AD20FF9F8E006B1646 /* Assets.xcassets */; };
+		FE9D74B420FF9F8E006B1646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9D74B320FF9F8E006B1646 /* main.m */; };
+		FE9D74BE20FF9F8E006B1646 /* HavtryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9D74BD20FF9F8E006B1646 /* HavtryDemoTests.m */; };
+		FE9D74C920FF9F8E006B1646 /* HavtryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9D74C820FF9F8E006B1646 /* HavtryDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE9D74BA20FF9F8E006B1646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9D749920FF9F8B006B1646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9D74A020FF9F8B006B1646;
+			remoteInfo = HavtryDemo;
+		};
+		FE9D74C520FF9F8E006B1646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9D749920FF9F8B006B1646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9D74A020FF9F8B006B1646;
+			remoteInfo = HavtryDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B21139EBDCEB3DA97D52548 /* Pods-HavtryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavtryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HavtryDemo/Pods-HavtryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB0E2D9A2A8EF6621129EC42 /* Pods-HavtryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavtryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HavtryDemo/Pods-HavtryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AD44418215452E5EA93C6B53 /* Pods_HavtryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HavtryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9D74A120FF9F8B006B1646 /* HavtryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HavtryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9D74A420FF9F8B006B1646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE9D74A520FF9F8B006B1646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE9D74A720FF9F8B006B1646 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE9D74A820FF9F8B006B1646 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE9D74AD20FF9F8E006B1646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE9D74B220FF9F8E006B1646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9D74B320FF9F8E006B1646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE9D74B920FF9F8E006B1646 /* HavtryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavtryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9D74BD20FF9F8E006B1646 /* HavtryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HavtryDemoTests.m; sourceTree = "<group>"; };
+		FE9D74BF20FF9F8E006B1646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9D74C420FF9F8E006B1646 /* HavtryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavtryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9D74C820FF9F8E006B1646 /* HavtryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HavtryDemoUITests.m; sourceTree = "<group>"; };
+		FE9D74CA20FF9F8E006B1646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE9D749E20FF9F8B006B1646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52CC8FB0BE952D39EFE5ED7 /* Pods_HavtryDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9D74B620FF9F8E006B1646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9D74C120FF9F8E006B1646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9794E71F206FBBFD47D38D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B21139EBDCEB3DA97D52548 /* Pods-HavtryDemo.debug.xcconfig */,
+				AB0E2D9A2A8EF6621129EC42 /* Pods-HavtryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C66406B7DE14A9AD5D13C3B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD44418215452E5EA93C6B53 /* Pods_HavtryDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE9D749820FF9F8B006B1646 = {
+			isa = PBXGroup;
+			children = (
+				FE9D74A320FF9F8B006B1646 /* HavtryDemo */,
+				FE9D74BC20FF9F8E006B1646 /* HavtryDemoTests */,
+				FE9D74C720FF9F8E006B1646 /* HavtryDemoUITests */,
+				FE9D74A220FF9F8B006B1646 /* Products */,
+				B9794E71F206FBBFD47D38D5 /* Pods */,
+				C66406B7DE14A9AD5D13C3B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE9D74A220FF9F8B006B1646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE9D74A120FF9F8B006B1646 /* HavtryDemo.app */,
+				FE9D74B920FF9F8E006B1646 /* HavtryDemoTests.xctest */,
+				FE9D74C420FF9F8E006B1646 /* HavtryDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE9D74A320FF9F8B006B1646 /* HavtryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE9D74A420FF9F8B006B1646 /* AppDelegate.h */,
+				FE9D74A520FF9F8B006B1646 /* AppDelegate.m */,
+				FE9D74A720FF9F8B006B1646 /* ViewController.h */,
+				FE9D74A820FF9F8B006B1646 /* ViewController.m */,
+				FE9D74AD20FF9F8E006B1646 /* Assets.xcassets */,
+				FE9D74B220FF9F8E006B1646 /* Info.plist */,
+				FE9D74B320FF9F8E006B1646 /* main.m */,
+			);
+			path = HavtryDemo;
+			sourceTree = "<group>";
+		};
+		FE9D74BC20FF9F8E006B1646 /* HavtryDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE9D74BD20FF9F8E006B1646 /* HavtryDemoTests.m */,
+				FE9D74BF20FF9F8E006B1646 /* Info.plist */,
+			);
+			path = HavtryDemoTests;
+			sourceTree = "<group>";
+		};
+		FE9D74C720FF9F8E006B1646 /* HavtryDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE9D74C820FF9F8E006B1646 /* HavtryDemoUITests.m */,
+				FE9D74CA20FF9F8E006B1646 /* Info.plist */,
+			);
+			path = HavtryDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE9D74A020FF9F8B006B1646 /* HavtryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9D74CD20FF9F8E006B1646 /* Build configuration list for PBXNativeTarget "HavtryDemo" */;
+			buildPhases = (
+				552C0F7E133C49E81914E64A /* [CP] Check Pods Manifest.lock */,
+				FE9D749D20FF9F8B006B1646 /* Sources */,
+				FE9D749E20FF9F8B006B1646 /* Frameworks */,
+				FE9D749F20FF9F8B006B1646 /* Resources */,
+				6ECADB463E81869527BAD31B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HavtryDemo;
+			productName = HavtryDemo;
+			productReference = FE9D74A120FF9F8B006B1646 /* HavtryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE9D74B820FF9F8E006B1646 /* HavtryDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9D74D020FF9F8E006B1646 /* Build configuration list for PBXNativeTarget "HavtryDemoTests" */;
+			buildPhases = (
+				FE9D74B520FF9F8E006B1646 /* Sources */,
+				FE9D74B620FF9F8E006B1646 /* Frameworks */,
+				FE9D74B720FF9F8E006B1646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9D74BB20FF9F8E006B1646 /* PBXTargetDependency */,
+			);
+			name = HavtryDemoTests;
+			productName = HavtryDemoTests;
+			productReference = FE9D74B920FF9F8E006B1646 /* HavtryDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE9D74C320FF9F8E006B1646 /* HavtryDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9D74D320FF9F8E006B1646 /* Build configuration list for PBXNativeTarget "HavtryDemoUITests" */;
+			buildPhases = (
+				FE9D74C020FF9F8E006B1646 /* Sources */,
+				FE9D74C120FF9F8E006B1646 /* Frameworks */,
+				FE9D74C220FF9F8E006B1646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9D74C620FF9F8E006B1646 /* PBXTargetDependency */,
+			);
+			name = HavtryDemoUITests;
+			productName = HavtryDemoUITests;
+			productReference = FE9D74C420FF9F8E006B1646 /* HavtryDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE9D749920FF9F8B006B1646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sumrise.com;
+				TargetAttributes = {
+					FE9D74A020FF9F8B006B1646 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FE9D74B820FF9F8E006B1646 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE9D74A020FF9F8B006B1646;
+					};
+					FE9D74C320FF9F8E006B1646 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE9D74A020FF9F8B006B1646;
+					};
+				};
+			};
+			buildConfigurationList = FE9D749C20FF9F8B006B1646 /* Build configuration list for PBXProject "HavtryDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE9D749820FF9F8B006B1646;
+			productRefGroup = FE9D74A220FF9F8B006B1646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE9D74A020FF9F8B006B1646 /* HavtryDemo */,
+				FE9D74B820FF9F8E006B1646 /* HavtryDemoTests */,
+				FE9D74C320FF9F8E006B1646 /* HavtryDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE9D749F20FF9F8B006B1646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9D74AE20FF9F8E006B1646 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9D74B720FF9F8E006B1646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9D74C220FF9F8E006B1646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		552C0F7E133C49E81914E64A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HavtryDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ECADB463E81869527BAD31B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HavtryDemo/Pods-HavtryDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/SMRJSBridge/SMRJSBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/SMRLifecycle/SMRLifecycle.framework",
+				"${BUILT_PRODUCTS_DIR}/SMRLogScreen/SMRLogScreen.framework",
+				"${BUILT_PRODUCTS_DIR}/SMRLogSystem/SMRLogSystem.framework",
+				"${BUILT_PRODUCTS_DIR}/SMRModel/SMRModel.framework",
+				"${BUILT_PRODUCTS_DIR}/SMRRanker/SMRRanker.framework",
+				"${BUILT_PRODUCTS_DIR}/SMRRouter/SMRRouter.framework",
+				"${BUILT_PRODUCTS_DIR}/SMRStabilizeGuider/SMRStabilizeGuider.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRJSBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRLifecycle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRLogScreen.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRLogSystem.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRRanker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRStabilizeGuider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HavtryDemo/Pods-HavtryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE9D749D20FF9F8B006B1646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9D74A920FF9F8B006B1646 /* ViewController.m in Sources */,
+				FE9D74B420FF9F8E006B1646 /* main.m in Sources */,
+				FE9D74A620FF9F8B006B1646 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9D74B520FF9F8E006B1646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9D74BE20FF9F8E006B1646 /* HavtryDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9D74C020FF9F8E006B1646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9D74C920FF9F8E006B1646 /* HavtryDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE9D74BB20FF9F8E006B1646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9D74A020FF9F8B006B1646 /* HavtryDemo */;
+			targetProxy = FE9D74BA20FF9F8E006B1646 /* PBXContainerItemProxy */;
+		};
+		FE9D74C620FF9F8E006B1646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9D74A020FF9F8B006B1646 /* HavtryDemo */;
+			targetProxy = FE9D74C520FF9F8E006B1646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE9D74CB20FF9F8E006B1646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE9D74CC20FF9F8E006B1646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE9D74CE20FF9F8E006B1646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B21139EBDCEB3DA97D52548 /* Pods-HavtryDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavtryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.com.HavtryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE9D74CF20FF9F8E006B1646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0E2D9A2A8EF6621129EC42 /* Pods-HavtryDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavtryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.com.HavtryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE9D74D120FF9F8E006B1646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavtryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.com.HavtryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavtryDemo.app/HavtryDemo";
+			};
+			name = Debug;
+		};
+		FE9D74D220FF9F8E006B1646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavtryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.com.HavtryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavtryDemo.app/HavtryDemo";
+			};
+			name = Release;
+		};
+		FE9D74D420FF9F8E006B1646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavtryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.com.HavtryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HavtryDemo;
+			};
+			name = Debug;
+		};
+		FE9D74D520FF9F8E006B1646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavtryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sumrise.com.HavtryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HavtryDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE9D749C20FF9F8B006B1646 /* Build configuration list for PBXProject "HavtryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9D74CB20FF9F8E006B1646 /* Debug */,
+				FE9D74CC20FF9F8E006B1646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9D74CD20FF9F8E006B1646 /* Build configuration list for PBXNativeTarget "HavtryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9D74CE20FF9F8E006B1646 /* Debug */,
+				FE9D74CF20FF9F8E006B1646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9D74D020FF9F8E006B1646 /* Build configuration list for PBXNativeTarget "HavtryDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9D74D120FF9F8E006B1646 /* Debug */,
+				FE9D74D220FF9F8E006B1646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9D74D320FF9F8E006B1646 /* Build configuration list for PBXNativeTarget "HavtryDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9D74D420FF9F8E006B1646 /* Debug */,
+				FE9D74D520FF9F8E006B1646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE9D749920FF9F8B006B1646 /* Project object */;
+}

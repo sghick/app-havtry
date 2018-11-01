@@ -1,0 +1,21 @@
+{
+  "name": "SMRRouter",
+  "version": "1.0.0",
+  "summary": "the router",
+  "authors": {
+    "tinswin": "https://github.com/sghick"
+  },
+  "homepage": "https://github.com/sghick/cmp-framework-SMRRouter",
+  "platforms": {
+    "ios": "8.0",
+    "watchos": "2.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "git@github.com:sghick/cmp-framework-SMRRouter.git"
+  },
+  "source_files": [
+    "SMRRouter/*.{h,m}",
+    "SMRRouterEx/*.{h,m}"
+  ]
+}
