@@ -14,8 +14,9 @@ target "HavtryDemo" do
     pod 'SMRStabilizeGuider', :git => 'git@github.com:sghick/cmp-library-SMRStabilizeGuider.git', :commit => '0ce225f'
     
     # cmp-framework
-    pod 'SMRLogSystem', :git => 'git@github.com:sghick/cmp-framework-SMRLogSystem.git', :commit => 'b545d78'
-    pod 'SMRLogScreen', :git => 'git@github.com:sghick/cmp-framework-SMRLogScreen.git', :commit => '22aca3a'
+    pod 'SMRDebug', :git => 'git@github.com:sghick/cmp-framework-SMRDebug.git', :commit => 'a8e2beb'
+#    pod 'SMRLogSystem', :git => 'git@github.com:sghick/cmp-framework-SMRLogSystem.git', :commit => 'b545d78'
+#    pod 'SMRLogScreen', :git => 'git@github.com:sghick/cmp-framework-SMRLogScreen.git', :commit => '22aca3a'
     pod 'SMRRouter', :git => 'git@github.com:sghick/cmp-framework-SMRRouter.git', :commit => '12a5f0a'
 
 end

@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <iAd/iAd.h>
-#import <SMRLogScreen/SMRLogScreen.h>
+#import "SMRLogSys.h"
 
 @interface ViewController ()<ADBannerViewDelegate>
 
@@ -45,24 +45,24 @@
 
 #pragma mark - ADBannerViewDelegate
 - (void)bannerViewWillLoadAd:(ADBannerView *)banner {
-    [SMRLogScreen addLine:[NSString stringWithFormat:@"%@", NSStringFromSelector(_cmd)] linebreak:YES groupLabel:@"AdBanner"];
+    SMRLog0(@"", @"AdBanner");
 }
 
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner {
-    [SMRLogScreen addLine:[NSString stringWithFormat:@"%@", NSStringFromSelector(_cmd)] linebreak:YES groupLabel:@"AdBanner"];
+    SMRLog0(@"", @"AdBanner");
 }
 
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
-    [SMRLogScreen addLine:[NSString stringWithFormat:@"%@", NSStringFromSelector(_cmd)] linebreak:YES groupLabel:@"AdBanner"];
+    SMRLog0(@"", @"AdBanner");
 }
 
 - (BOOL)bannerViewActionShouldBegin:(ADBannerView *)banner willLeaveApplication:(BOOL)willLeave {
-    [SMRLogScreen addLine:[NSString stringWithFormat:@"%@", NSStringFromSelector(_cmd)] linebreak:YES groupLabel:@"AdBanner"];
+    SMRLog0(@"", @"AdBanner");
     return YES;
 }
 
 - (void)bannerViewActionDidFinish:(ADBannerView *)banner {
-    [SMRLogScreen addLine:[NSString stringWithFormat:@"%@", NSStringFromSelector(_cmd)] linebreak:YES groupLabel:@"AdBanner"];
+    SMRLog0(@"", @"AdBanner");
 }
 
 

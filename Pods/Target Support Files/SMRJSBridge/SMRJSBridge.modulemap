@@ -1,6 +1,0 @@
-framework module SMRJSBridge {
-  umbrella header "SMRJSBridge-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A5151B121D210D700C1B079 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5151B021D210D700C1B079 /* Launch Screen.storyboard */; };
 		A52CC8FB0BE952D39EFE5ED7 /* Pods_HavtryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD44418215452E5EA93C6B53 /* Pods_HavtryDemo.framework */; };
 		FE9D74A620FF9F8B006B1646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9D74A520FF9F8B006B1646 /* AppDelegate.m */; };
 		FE9D74A920FF9F8B006B1646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9D74A820FF9F8B006B1646 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		0B21139EBDCEB3DA97D52548 /* Pods-HavtryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavtryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HavtryDemo/Pods-HavtryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8A5151B021D210D700C1B079 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AB0E2D9A2A8EF6621129EC42 /* Pods-HavtryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavtryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HavtryDemo/Pods-HavtryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AD44418215452E5EA93C6B53 /* Pods_HavtryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HavtryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9D74A120FF9F8B006B1646 /* HavtryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HavtryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				FE9D74AD20FF9F8E006B1646 /* Assets.xcassets */,
 				FE9D74B220FF9F8E006B1646 /* Info.plist */,
 				FE9D74B320FF9F8E006B1646 /* main.m */,
+				8A5151B021D210D700C1B079 /* Launch Screen.storyboard */,
 			);
 			path = HavtryDemo;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5151B121D210D700C1B079 /* Launch Screen.storyboard in Resources */,
 				FE9D74AE20FF9F8E006B1646 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,10 +306,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HavtryDemo/Pods-HavtryDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
+				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
+				"${BUILT_PRODUCTS_DIR}/SMRDebug/SMRDebug.framework",
 				"${BUILT_PRODUCTS_DIR}/SMRJSBridge/SMRJSBridge.framework",
 				"${BUILT_PRODUCTS_DIR}/SMRLifecycle/SMRLifecycle.framework",
-				"${BUILT_PRODUCTS_DIR}/SMRLogScreen/SMRLogScreen.framework",
-				"${BUILT_PRODUCTS_DIR}/SMRLogSystem/SMRLogSystem.framework",
 				"${BUILT_PRODUCTS_DIR}/SMRModel/SMRModel.framework",
 				"${BUILT_PRODUCTS_DIR}/SMRRanker/SMRRanker.framework",
 				"${BUILT_PRODUCTS_DIR}/SMRRouter/SMRRouter.framework",
@@ -315,10 +319,10 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRDebug.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRJSBridge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRLifecycle.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRLogScreen.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRLogSystem.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRRanker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMRRouter.framework",
@@ -489,11 +493,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0B21139EBDCEB3DA97D52548 /* Pods-HavtryDemo.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HavtryDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,11 +510,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB0E2D9A2A8EF6621129EC42 /* Pods-HavtryDemo.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HavtryDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
